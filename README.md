@@ -1,1 +1,1 @@
-# yazilimMimarisiOdevi
+# Yazılım Mimarisi ve Tasarımı
