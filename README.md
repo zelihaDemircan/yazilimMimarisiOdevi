@@ -4,6 +4,8 @@
 
 Interpreter tasarım deseni, behavior grubununa ait, belli bir düzen veya kurala bağlı olan metinlerin sayısal veya mantıksal olarak işlenmesi gereken durumlarda kullanılır.Interpreter tasarım deseni, düzgün gramer ifadesindeki metinlerin sayısal veya mantıksal olarak işlenmesi gereken durumlarda kullanılır. Düzgün gramer ifadesi olarak, metinde ki karakterlerin özel karşılıkları olduğu metinler olarak düşünebiliriz.Verilen cümleye göre sayıyı ikili veya onaltılı sayıya çeviren programı örnek olarak verebiliriz.
 
+![Screenshot](interpreter-pattern)
+
 İlk olarak yorumu yapan interpreter context sınıfını yazmalıyız.
 
 ```java
@@ -97,6 +99,9 @@ public class InterpreterClient {
 **Composite Tasarım Deseni**
 
 Composite tasarım deseni structual grubuna ait; ağaç yapısında ki nesne kalıplarının hiyerarşik olarak iç içe kullanılmasını düzenlemektir.Hiyerarşik yapıya örnek olarak askeriyeyi verebiliriz. Rütbeli de olsa er de olsa hepsi askerdir. Rütbeli olup emrinde askerler de olsa ondan üst rütbedeki askerlerin emrindedir. Ve bir üst altına emir verdiğinde emir verilen askerin altındaki askerler de bu emirden etkilenir.Şekli verilen renkle çizmek için bir draw yöntemiyle (String fillColor) bir sınıf Shape oluşturan programı örnek olarak verebiliriz.
+
+
+![Screenshot](composite-pattern)
 
 ```java
 public interface Shape {
